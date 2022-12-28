@@ -34,5 +34,5 @@ npm run dev
 # Run the React client only
 npm run start
 
-# Server runs on http://localhost:8080 and client on http://localhost:3000
+# Server runs on http://localhost:5000 and client on http://localhost:3000
 ```

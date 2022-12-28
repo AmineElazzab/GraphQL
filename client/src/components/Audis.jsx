@@ -17,6 +17,9 @@ export default function Audis() {
           <thead>
             <tr>
               <th scope="col" style={{ width: "100px" }}>
+                id
+              </th>
+              <th scope="col" style={{ width: "100px" }}>
                 B.N
               </th>
               {/* <th scope="col">Logo</th> */}

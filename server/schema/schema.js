@@ -138,7 +138,7 @@ const mutation = new GraphQLObjectType({
     deleteBrand: {
       type: BrandType,
       args: {
-        id: { type: nonNullIntType }
+        id: { type: nonNullIntType, GraphQLID }
       },
       resolve(parent, args) {
         return Brand.findByIdAndRemove(args.id);

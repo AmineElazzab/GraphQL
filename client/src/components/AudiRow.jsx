@@ -1,6 +1,6 @@
 import { FaEdit, FaTrash } from "react-icons/fa";
 import { useMutation } from "@apollo/client";
-import { DELETE_AUDI } from "../mutations/clientMutations";
+import { DELETE_AUDI } from "../mutations/audiMutations";
 
 export default function AudiRow({ audi }) {
   const [deleteBrand] = useMutation(DELETE_AUDI, {
